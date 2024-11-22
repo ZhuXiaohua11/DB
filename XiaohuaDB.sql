@@ -1,9 +1,8 @@
+-- 1. Skapa databas och tabeller
 DROP DATABASE IF EXISTS `XiaohuaDB`;
 CREATE DATABASE `XiaohuaDB`;
 use XiaohuaDB;
- 
 
--- 1. Skapa databas och tabeller
 create table authors(
 author_id INT PRIMARY KEY auto_increment,
 first_name VARCHAR(50),
